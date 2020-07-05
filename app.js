@@ -1,3 +1,4 @@
+
 const sections = document.querySelectorAll("section");
 const bubble = document.querySelector(".bubble");
 const gradients = [
@@ -39,6 +40,5 @@ function navCheck(entries){
 
 sections.forEach(section => {
     observer.observe(section);
-
 
 });
